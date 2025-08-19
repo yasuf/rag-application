@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+ollama = "==0.5.3"
+pinecone-client = "==2.2.4"
+python-dotenv = "==1.0.0"
+sentence-transformers = "==2.2.2"
+ipykernel = "==6.28.0"
+pinecone = "==7.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
